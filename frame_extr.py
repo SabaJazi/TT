@@ -1,5 +1,5 @@
 import cv2
-
+import os
 def get_streams(f_movie):
     capture = cv2.VideoCapture(f_movie)
     fourcc = capture.get(cv2.CAP_PROP_FOURCC)
@@ -13,21 +13,18 @@ def get_streams(f_movie):
         # convert the RGB image to gray
         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         # save each frame as jpg
-        cv2.imwrite("frame%d.jpg" % i, frame)
+        #cv2.imwrite("frame%d.jpg" % i, frame)
+        path = os.getcwd()
+        filename = 'frames'
+        path = os.path.join(path, filename)
+        cv2.imwrite(path +'/'+"frame%d.jpg" % i, frame)
+
 
     return capture
 
 ##########################################################################
 
 get_streams('tumor_dual.avi')
-# capture= get_streams('tumor_dual.avi')
-# num_frames=int(capture.get(7))
-#print(num_frames)
-# for i in range(num_frames):
-#   _, frame = capture.read()
-#   #convert the RGB image to gray
-#   frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-#   #save each frame as jpg
-#   cv2.imwrite("frame%d.jpg" % i, frame)
+
 
 

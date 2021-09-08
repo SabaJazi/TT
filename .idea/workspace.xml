@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="frames extracted" />
+    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="frames extracted">
+      <change afterPath="$PROJECT_DIR$/add_noise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame_extr.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_extr.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +60,28 @@
       <recent name="D:\PycharmProjects\TT\Pre processing" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.frame_extr">
+    <configuration name="add_noise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_noise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="frame_extr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,9 +103,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.frame_extr" />
+      <item itemvalue="Python.add_noise" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.frame_extr" />
+        <item itemvalue="Python.add_noise" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631134087641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="frames extracted">
+      <created>1631134514835</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631134514835</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,34 +189,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="494" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1631133898160" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1631134058791">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1631136396791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631134058791" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1631134058791">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631136396791" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1631136396790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631134058791" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1631134058791">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631136396790" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1631136396790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631134058791" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1631134058791">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631136396790" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1631136396790">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631134058791" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631136396790" />
     <state x="136" y="0" key="SettingsEditor" timestamp="1631133004356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="136" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1631133004356" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631134316401">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631134567638">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631134316401" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631134295907">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631134567638" />
+    <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1631134502573">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1631134295907" />
+    <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1631134502573" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631134527711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1631134527711" />
     <state x="436" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631130833866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
