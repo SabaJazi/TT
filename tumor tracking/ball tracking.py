@@ -21,6 +21,10 @@ bgThresh = 0.6
 noise = 20
 bgs = cv2.createBackgroundSubtractorKNN()
 
+
+#bgs=cv2.createBackgroundSubtractorMOG2()
+#bgs=cv2.createBackgroundSubtractorMOG2()
+
 plt.figure()
 # ply.hold(True)
 plt.axis([0, 480, 360, 0])
