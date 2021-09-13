@@ -4,6 +4,8 @@ def get_streams(f_movie):
     capture = cv2.VideoCapture(f_movie)
     fourcc = capture.get(cv2.CAP_PROP_FOURCC)
     fps = int(capture.get(cv2.CAP_PROP_FPS))
+    print('fps =' , fps)
+    print('fourcc=', fourcc)
     frameSize = (int(capture.get(cv2.CAP_PROP_FRAME_WIDTH)),
                  int(capture.get(cv2.CAP_PROP_FRAME_HEIGHT)))
     numframes = int(capture.get(7))
@@ -17,7 +19,7 @@ def get_streams(f_movie):
         path = os.getcwd()
         filename = 'frames'
         path = os.path.join(path, filename)
-        cv2.imwrite(path +'/'+"frame%d.jpg" % i, frame)
+       # cv2.imwrite(path +'/'+"frame%d.jpg" % i, frame)
 
 
     return capture
