@@ -5,8 +5,9 @@ import cv2
 import skimage
 import matplotlib.pyplot as plt
 import re
+from skimage import io
 
-
+import numpy as np
 ################cv2 method for salt and pepper ###########################
 
 def add_noise(img):
@@ -44,66 +45,40 @@ def add_noise(img):
         img[y_coord][x_coord] = 0
 
     return img
-######################skimage method for different types of noise #############################
-#
-# img_path = r'D:\PycharmProjects\TT\frames\frame0.jpg'
-# img = skimage.io.imread(img_path)/255.0
-#
-# def plotnoise(img, mode, r, c, i):
-#     plt.subplot(r,c,i)
-#     if mode is not None:
-#         gimg = skimage.util.random_noise(img, mode=mode)
-#         plt.imshow(gimg)
-#     else:
-#         plt.imshow(img)
-#     plt.title(mode)
-#     plt.axis("off")
-#
-# plt.figure(figsize=(18,24))
-# r=4
-# c=2
-# plotnoise(img, "gaussian", r,c,1)
-# plotnoise(img, "localvar", r,c,2)
-# plotnoise(img, "poisson", r,c,3)
-# plotnoise(img, "salt", r,c,4)
-# plotnoise(img, "pepper", r,c,5)
-# plotnoise(img, "s&p", r,c,6)
-# plotnoise(img, "speckle", r,c,7)
-# plotnoise(img, None, r,c,8)
-# plt.show()
+
 ####################################################
-main_path = os.getcwd()
-filename = 'frames'
-path = os.path.join(main_path, filename)
-#####################sorting the frame numbers ##########################
-images = [img for img in os.listdir(path)]
+# main_path = os.getcwd()
+# filename = 'frames'
+# path = os.path.join(main_path, filename)
+# #####################sorting the frame numbers ##########################
+# images = [img for img in os.listdir(path)]
 def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
     return [
         int(text)
         if text.isdigit() else text.lower()
         for text in _nsre.split(s)]
 
-sorted_images = sorted(images, key=natural_sort_key)
-
-
-
-##############################################
-i=0
-#for image_path in os.listdir(path):
-for image_path in sorted_images:
-    # create the full input path and read the file
-    input_path = os.path.join(path, image_path)
-    #image_to_add_noise = ndimage.imread(input_path)
-    raw_image = cv2.imread(input_path, cv2.IMREAD_GRAYSCALE)
-    noisy_folder='s&p_noisy'
-    noisy_path = os.path.join(main_path, noisy_folder)
-#    cv2.imwrite(noisy_path + '/' + "frame%d.jpg" % i,  add_noise(raw_image))
-    #print(input_path)
-    #print(i)
-    cv2.imwrite(noisy_path + '/' + "%d.jpg" % i,  add_noise(raw_image))
-    #print("saved",i)
-    i+=1
-#################################################################
+# sorted_images = sorted(images, key=natural_sort_key)
+#
+#
+#
+# ##############################################
+# i=0
+# #for image_path in os.listdir(path):
+# for image_path in sorted_images:
+#     # create the full input path and read the file
+#     input_path = os.path.join(path, image_path)
+#     #image_to_add_noise = ndimage.imread(input_path)
+#     raw_image = cv2.imread(input_path, cv2.IMREAD_GRAYSCALE)
+#     noisy_folder='s&p_noisy'
+#     noisy_path = os.path.join(main_path, noisy_folder)
+# #    cv2.imwrite(noisy_path + '/' + "frame%d.jpg" % i,  add_noise(raw_image))
+#     #print(input_path)
+#     #print(i)
+#     cv2.imwrite(noisy_path + '/' + "%d.jpg" % i,  add_noise(raw_image))
+#     #print("saved",i)
+#     i+=1
+##########################testing#######################################
 # test_img = path+'\\'+'frame0.jpg'
 # # print(test_img)
 # raw_image = cv2.imread(test_img, cv2.IMREAD_GRAYSCALE)
@@ -117,3 +92,44 @@ for image_path in sorted_images:
 # #print(noisy.shape)
 # #cv2.imshow('Image', noisy)
 # #cv2.waitKey(0)
+######################skimage method for different types of noise #############################
+
+
+def selectnoise(path, mode, out_folder):
+    images = [img for img in os.listdir(path)]
+    sorted_images = sorted(images, key=natural_sort_key)
+    noisy_path = os.path.join(main_path, out_folder)
+    if not os.path.isdir(noisy_path):
+        os.mkdir(noisy_path)
+
+    if mode is not None:
+        i = 0
+        for image_path in sorted_images:
+            input_path = os.path.join(path, image_path)
+            # print(path)
+            # break
+            img = skimage.io.imread(input_path) / 255.0
+            nimg = skimage.util.random_noise(img, mode=mode)
+            noise_img = np.array(255 * nimg, dtype='uint8')
+            # print(noise_img)
+            cv2.imwrite(noisy_path + '/' + "%d.jpg" % i, noise_img)
+            i+=1
+
+
+#############################################################
+
+main_path = os.getcwd()
+# print(main_path)
+img_folder='frames'
+
+path = os.path.join(main_path, img_folder)
+# print(path)
+
+# selectnoise(path, "gaussian","gaussian")
+# selectnoise(path, "localvar","localvar")
+# selectnoise(path, "poisson","poisson")
+# selectnoise(path, "salt","salt")
+# selectnoise(path, "pepper","pepper")
+# selectnoise(path, "s&p","s&p")
+# selectnoise(path, "speckle","speckle")
+# selectnoise(path, None)
