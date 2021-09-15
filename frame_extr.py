@@ -19,13 +19,25 @@ def get_streams(f_movie):
         path = os.getcwd()
         filename = 'frames'
         path = os.path.join(path, filename)
-       # cv2.imwrite(path +'/'+"frame%d.jpg" % i, frame)
+        cv2.imwrite(path +'/'+"%d.jpg" % i, frame)
 
 
     return capture
 
 ##########################################################################
-
+# def get_streams2(video):
+#
+#     #vidcap = cv2.VideoCapture('big_buck_bunny_720p_5mb.mp4')
+#     vidcap = cv2.VideoCapture(video)
+#
+#     success,image = vidcap.read()
+#     count = 0
+#     while success:
+#       cv2.imwrite("frame%d.jpg" % count, image)     # save frame as JPEG file
+#       success,image = vidcap.read()
+#       print('Read a new frame: ', success)
+#       count += 1
+# ##########################################################################
 get_streams('tumor_dual.avi')
 
 

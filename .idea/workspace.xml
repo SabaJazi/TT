@@ -19,18 +19,163 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="frames extracted">
-      <change afterPath="$PROJECT_DIR$/../Cat&amp;Dog/.idea/Cat&amp;Dog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ML/.idea/ML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TT - Copy/.idea/TT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/TT.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ball tracking 2/.idea/ball tracking 2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj1/.idea/proj1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tumor tracking/.idea/tumor tracking.iml" afterDir="false" />
+    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="creating video code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_noise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame_extr.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_extr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames/frame9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame59.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame60.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame61.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/frame9.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +197,9 @@
     <option name="defaultAccountId" value="6805e565-e5d4-4f40-9404-50bbd91b66c8" />
   </component>
   <component name="ProjectId" id="1xpDhDij7KK2oG82xm9i3rOpaTb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +216,7 @@
       <recent name="D:\PycharmProjects\TT\Pre processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.add_noise">
+  <component name="RunManager" selected="Python.create_video">
     <configuration name="add_noise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +230,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_noise.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,9 +283,11 @@
     <list>
       <item itemvalue="Python.frame_extr" />
       <item itemvalue="Python.add_noise" />
+      <item itemvalue="Python.create_video" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_video" />
         <item itemvalue="Python.add_noise" />
         <item itemvalue="Python.frame_extr" />
       </list>
@@ -183,7 +353,35 @@
       <option name="project" value="LOCAL" />
       <updated>1631136693609</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding s&amp;p noise and saving frames">
+      <created>1631504145414</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631504145414</updated>
+    </task>
+    <task id="LOCAL-00009" summary="adding s&amp;p noise and saving frames">
+      <created>1631504302425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631504302425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="creating video code">
+      <created>1631504802325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631504802325</updated>
+    </task>
+    <task id="LOCAL-00011" summary="creating video code">
+      <created>1631509399857</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1631509399857</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,49 +399,67 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="frames extracted" />
-    <option name="LAST_COMMIT_MESSAGE" value="frames extracted" />
+    <MESSAGE value="adding s&amp;p noise and saving frames" />
+    <MESSAGE value="creating video code" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating video code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="169" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631502212549">
+    <state x="169" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631504766307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="169" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1631502212549" />
+    <state x="169" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1631504766307" />
     <state x="494" y="95" key="FileChooserDialogImpl" timestamp="1631133898160">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="494" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1631133898160" />
-    <state width="1259" height="38" key="GridCell.Tab.0.bottom" timestamp="1631503964962">
+    <state width="1259" height="151" key="GridCell.Tab.0.bottom" timestamp="1631677137090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="38" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631503964962" />
-    <state width="1259" height="38" key="GridCell.Tab.0.center" timestamp="1631503964961">
+    <state width="1259" height="151" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631677137090" />
+    <state width="1259" height="151" key="GridCell.Tab.0.center" timestamp="1631677137090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="38" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631503964961" />
-    <state width="1259" height="38" key="GridCell.Tab.0.left" timestamp="1631503964961">
+    <state width="1259" height="151" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631677137090" />
+    <state width="1259" height="151" key="GridCell.Tab.0.left" timestamp="1631677137090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="38" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631503964961" />
-    <state width="1259" height="38" key="GridCell.Tab.0.right" timestamp="1631503964961">
+    <state width="1259" height="151" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631677137090" />
+    <state width="1259" height="151" key="GridCell.Tab.0.right" timestamp="1631677137090">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="38" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631503964961" />
+    <state width="1259" height="151" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631677137090" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1631509586512">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631509586512" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1631509586512">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1631509586512" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1631509586512">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1631509586512" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1631509586512">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1631509586512" />
     <state x="136" y="0" key="SettingsEditor" timestamp="1631503488891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="136" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1631503488891" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631136719027">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631509414559">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631136719027" />
-    <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1631136687874">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631509414559" />
+    <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1631504111830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1631136687874" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631136700964">
+    <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1280.680@0.0.1280.680" timestamp="1631504111830" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631508753857">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1631136700964" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1631508753857" />
     <state x="436" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1631130833866">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
