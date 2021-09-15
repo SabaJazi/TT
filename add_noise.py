@@ -8,7 +8,8 @@ import re
 from skimage import io
 
 import numpy as np
-################cv2 method for salt and pepper ###########################
+# ###############cv2 method for salt and pepper ###########################
+
 
 def add_noise(img):
 
@@ -52,6 +53,8 @@ def add_noise(img):
 # path = os.path.join(main_path, filename)
 # #####################sorting the frame numbers ##########################
 # images = [img for img in os.listdir(path)]
+
+
 def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
     return [
         int(text)
@@ -78,7 +81,7 @@ def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
 #     cv2.imwrite(noisy_path + '/' + "%d.jpg" % i,  add_noise(raw_image))
 #     #print("saved",i)
 #     i+=1
-##########################testing#######################################
+# #########################testing#######################################
 # test_img = path+'\\'+'frame0.jpg'
 # # print(test_img)
 # raw_image = cv2.imread(test_img, cv2.IMREAD_GRAYSCALE)
@@ -92,7 +95,7 @@ def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
 # #print(noisy.shape)
 # #cv2.imshow('Image', noisy)
 # #cv2.waitKey(0)
-######################skimage method for different types of noise #############################
+# -------- skimage method for different types of noise -----------
 
 
 def selectnoise(path, mode, out_folder):

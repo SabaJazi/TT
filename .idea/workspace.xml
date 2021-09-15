@@ -19,466 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="fixing order of frame numbers in saving frames and reading them for adding noise and making the video">
-      <change afterPath="$PROJECT_DIR$/gaussian/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gaussian/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pepper/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poisson/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/salt/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/25.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/29.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/36.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/41.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/43.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/46.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/48.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/50.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/54.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/58.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/59.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/61.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/63.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/64.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/65.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/67.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/68.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/69.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/70.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/71.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/74.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/75.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle/9.jpg" afterDir="false" />
+    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="adding speckle, localvar, poisson,gaussian noises to frames and save them.">
+      <change afterPath="$PROJECT_DIR$/gaussian_noise.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/localvar_noise.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/speckle_noise.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_noise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s&amp;p_noisy/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_video.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame_extr.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_extr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,7 +68,7 @@
       <recent name="D:\PycharmProjects\TT\Pre processing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.add_noise">
+  <component name="RunManager" selected="Python.create_video">
     <configuration name="add_noise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TT" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -591,8 +139,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.add_noise" />
         <item itemvalue="Python.create_video" />
+        <item itemvalue="Python.add_noise" />
         <item itemvalue="Python.frame_extr" />
       </list>
     </recent_temporary>
@@ -692,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631677533961</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adding speckle, localvar, poisson,gaussian noises to frames and save them.">
+      <created>1631724697794</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631724697794</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -714,7 +269,8 @@
     <MESSAGE value="adding s&amp;p noise and saving frames" />
     <MESSAGE value="creating video code" />
     <MESSAGE value="fixing order of frame numbers in saving frames and reading them for adding noise and making the video" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing order of frame numbers in saving frames and reading them for adding noise and making the video" />
+    <MESSAGE value="adding speckle, localvar, poisson,gaussian noises to frames and save them." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding speckle, localvar, poisson,gaussian noises to frames and save them." />
   </component>
   <component name="WindowStateProjectService">
     <state x="169" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631504766307">
@@ -725,22 +281,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="494" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1631133898160" />
-    <state width="623" height="553" key="GridCell.Tab.0.bottom" timestamp="1631724390831">
+    <state width="623" height="553" key="GridCell.Tab.0.bottom" timestamp="1631727001355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631724390831" />
-    <state width="623" height="553" key="GridCell.Tab.0.center" timestamp="1631724390831">
+    <state width="623" height="553" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
+    <state width="623" height="553" key="GridCell.Tab.0.center" timestamp="1631727001355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631724390831" />
-    <state width="623" height="553" key="GridCell.Tab.0.left" timestamp="1631724390830">
+    <state width="623" height="553" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
+    <state width="623" height="553" key="GridCell.Tab.0.left" timestamp="1631727001355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631724390830" />
-    <state width="623" height="553" key="GridCell.Tab.0.right" timestamp="1631724390831">
+    <state width="623" height="553" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
+    <state width="623" height="553" key="GridCell.Tab.0.right" timestamp="1631727001355">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631724390831" />
+    <state width="623" height="553" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1631509586512">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -761,10 +317,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="136" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1631503488891" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631677550794">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631724712292">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631677550794" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631724712292" />
     <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1631724569518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
