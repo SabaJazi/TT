@@ -19,14 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="adding speckle, localvar, poisson,gaussian noises to frames and save them.">
-      <change afterPath="$PROJECT_DIR$/gaussian_noise.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localvar_noise.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/speckle_noise.mp4" afterDir="false" />
+    <list default="true" id="1ce6f6a8-14b9-4e0c-a166-d500d6d279fc" name="Default Changelist" comment="creating all the noisy videos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_noise.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_noise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frame_extr.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_extr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,9 +127,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.frame_extr" />
       <item itemvalue="Python.add_noise" />
       <item itemvalue="Python.create_video" />
+      <item itemvalue="Python.frame_extr" />
     </list>
     <recent_temporary>
       <list>
@@ -247,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631724697794</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="creating all the noisy videos">
+      <created>1631727132314</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631727132314</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,7 +271,8 @@
     <MESSAGE value="creating video code" />
     <MESSAGE value="fixing order of frame numbers in saving frames and reading them for adding noise and making the video" />
     <MESSAGE value="adding speckle, localvar, poisson,gaussian noises to frames and save them." />
-    <option name="LAST_COMMIT_MESSAGE" value="adding speckle, localvar, poisson,gaussian noises to frames and save them." />
+    <MESSAGE value="creating all the noisy videos" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating all the noisy videos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="169" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631504766307">
@@ -281,22 +283,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="494" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1631133898160" />
-    <state width="623" height="553" key="GridCell.Tab.0.bottom" timestamp="1631727001355">
+    <state width="645" height="553" key="GridCell.Tab.0.bottom" timestamp="1631731839028">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
-    <state width="623" height="553" key="GridCell.Tab.0.center" timestamp="1631727001355">
+    <state width="645" height="553" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1631731839028" />
+    <state width="645" height="553" key="GridCell.Tab.0.center" timestamp="1631731839027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
-    <state width="623" height="553" key="GridCell.Tab.0.left" timestamp="1631727001355">
+    <state width="645" height="553" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1631731839027" />
+    <state width="645" height="553" key="GridCell.Tab.0.left" timestamp="1631731839027">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
-    <state width="623" height="553" key="GridCell.Tab.0.right" timestamp="1631727001355">
+    <state width="645" height="553" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1631731839027" />
+    <state width="645" height="553" key="GridCell.Tab.0.right" timestamp="1631731839028">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="623" height="553" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631727001355" />
+    <state width="645" height="553" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1631731839028" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1631509586512">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -317,10 +319,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="136" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1631503488891" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631724712292">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1631727143966">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631724712292" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1631727143966" />
     <state x="469" y="75" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1631724569518">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
