@@ -3,10 +3,7 @@ import os
 import re
 
 
-
 # ----------------sorting the frame numbers ---------------------
-
-#images = [img for img in os.listdir(path)]
 
 
 def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
@@ -14,9 +11,6 @@ def natural_sort_key(s, _nsre=re.compile('([0-9]+)')):
         int(text)
         if text.isdigit() else text.lower()
         for text in _nsre.split(s)]
-
-
-#sorted_images = sorted(images, key=natural_sort_key)
 
 
 # #############################################
@@ -47,16 +41,6 @@ def create_video(path,name):
 
 
 main_path = os.getcwd()
-# folder_name = 'speckle'
-# folder_name = 'gaussian'
-# folder_name = 'localvar'
-# folder_name = 'pepper'
-# folder_name = 'poisson'
-folder_name = 'salt'
+folder_name = 's&p_0.01'
 path = os.path.join(main_path, folder_name)
-# create_video(path, "speckle_noise")
-# create_video(path, "gaussian_noise")
-# create_video(path, "localvar_noise")
-# create_video(path, "pepper_noise")
-# create_video(path, "poisson_noise")
-create_video(path, "salt_noise")
+create_video(path, "s&p_0.01")
